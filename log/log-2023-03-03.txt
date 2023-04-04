@@ -1,0 +1,61 @@
+2023-03-03 10:27:00,823 - log - ERROR - Unknown projection '3d'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\projections\__init__.py", line 58, in get_projection_class
+    return projection_registry.get_projection_class(projection)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\projections\__init__.py", line 25, in get_projection_class
+    return self._all_projection_types[name]
+KeyError: '3d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 170, in health_Score_plt
+    ax = plt.axes(projection ="3d")
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\pyplot.py", line 871, in axes
+    return subplot(111, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\pyplot.py", line 1070, in subplot
+    a = fig.add_subplot(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\figure.py", line 1396, in add_subplot
+    self._process_projection_requirements(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\figure.py", line 1120, in _process_projection_requirements
+    projection_class = projections.get_projection_class(projection)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\matplotlib\projections\__init__.py", line 60, in get_projection_class
+    raise ValueError("Unknown projection %r" % projection)
+ValueError: Unknown projection '3d'
+2023-03-03 10:42:32,609 - log - ERROR - name 'Weight' is not defined
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 181, in health_Score_plt
+    health_score,comment,item_score_set=health_Score(df.iloc[i],vis,facility_type=facility_type,oil_type=oil_type)
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 136, in health_Score
+    for num,w in zip([vis_num,aw_num,nas_num,Fe_nFe_num],Weight.values()):
+NameError: name 'Weight' is not defined
+2023-03-03 13:50:14,271 - log - ERROR - unsupported operand type(s) for /: 'str' and 'int'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 188, in health_Score_plt
+    ax1.set_title("近期综合健康指数;%s"%sum(Health_score)/len(Health_score))
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2023-03-03 14:23:07,560 - log - ERROR - 'int' object has no attribute 'round'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 189, in health_Score_plt
+    averag_score=sum(Health_score)/len(Health_score).round(2)
+AttributeError: 'int' object has no attribute 'round'
+2023-03-03 14:23:07,560 - log - ERROR - 'int' object has no attribute 'round'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 189, in health_Score_plt
+    averag_score=sum(Health_score)/len(Health_score).round(2)
+AttributeError: 'int' object has no attribute 'round'
+2023-03-03 14:23:53,261 - log - ERROR - 'int' object has no attribute 'round'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 189, in health_Score_plt
+    averag_score=sum(Health_score)/len(Health_score).round(2)
+AttributeError: 'int' object has no attribute 'round'
+2023-03-03 14:23:53,261 - log - ERROR - 'int' object has no attribute 'round'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 189, in health_Score_plt
+    averag_score=sum(Health_score)/len(Health_score).round(2)
+AttributeError: 'int' object has no attribute 'round'
+2023-03-03 14:23:53,261 - log - ERROR - 'int' object has no attribute 'round'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\health_index.py", line 189, in health_Score_plt
+    averag_score=sum(Health_score)/len(Health_score).round(2)
+AttributeError: 'int' object has no attribute 'round'

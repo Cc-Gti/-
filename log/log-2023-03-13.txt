@@ -1,0 +1,707 @@
+2023-03-13 09:37:57,507 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 09:51:57,470 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 09:51:57,470 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 09:55:36,592 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 09:55:36,592 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 09:55:36,592 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 10:34:34,746 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 10:34:34,746 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 10:34:34,746 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 10:34:34,746 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 10:34:34,756 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 10:34:34,756 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 10:34:34,756 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 10:34:34,756 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 10:34:34,756 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 10:41:10,123 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 49, in forcast_func
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-13 10:41:10,123 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 49, in forcast_func
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-13 10:41:10,123 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 49, in forcast_func
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-13 10:41:10,123 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 49, in forcast_func
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-13 10:41:10,123 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 49, in forcast_func
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-13 10:41:10,123 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 49, in forcast_func
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 10:41:10,131 - log - ERROR - 'AssertionError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 170, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'AssertionError' object has no attribute 'columns'
+2023-03-13 11:22:00,263 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:22:00,292 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:22:00,292 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:40:12,198 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:40:12,198 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:40:12,198 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:40:12,203 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:40:12,203 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:40:12,203 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:40:12,203 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:46:26,331 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:46:26,331 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:46:26,331 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:46:26,331 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:46:26,331 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 11:46:26,338 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:46:26,338 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:46:26,338 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:46:26,338 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:46:26,338 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 11:46:26,338 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,986 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:47:35,998 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,479 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 52, in forcast_func
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1434, in fit
+    self.best_model_name = self.best_model['Model'].iloc[0]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'
+2023-03-13 12:48:14,489 - log - ERROR - 'IndexError' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 171, in water_diag3
+    if '水活性' not in df.columns:
+AttributeError: 'IndexError' object has no attribute 'columns'

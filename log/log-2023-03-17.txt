@@ -1,0 +1,198 @@
+2023-03-17 09:54:53,173 - log - ERROR - 320
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 244, in Vis_temp_diag
+    if df['黏度'].iloc[-1]>content['VIS'][vis][0]+content['VIS'][vis][1]:
+KeyError: 320
+2023-03-17 09:54:54,443 - log - ERROR - 320
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 244, in Vis_temp_diag
+    if df['黏度'].iloc[-1]>content['VIS'][vis][0]+content['VIS'][vis][1]:
+KeyError: 320
+2023-03-17 09:54:54,443 - log - ERROR - 320
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 244, in Vis_temp_diag
+    if df['黏度'].iloc[-1]>content['VIS'][vis][0]+content['VIS'][vis][1]:
+KeyError: 320
+2023-03-17 14:22:37,694 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 244, in Vis_temp_diag
+    if df['黏度'].iloc[-1]>content['VIS'][str(vis)][0]+content['VIS'][str(vis)][1]:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-17 14:22:37,694 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 244, in Vis_temp_diag
+    if df['黏度'].iloc[-1]>content['VIS'][str(vis)][0]+content['VIS'][str(vis)][1]:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-17 14:22:37,694 - log - ERROR - single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 244, in Vis_temp_diag
+    if df['黏度'].iloc[-1]>content['VIS'][str(vis)][0]+content['VIS'][str(vis)][1]:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 879, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1496, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1437, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2023-03-17 14:22:37,744 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:37,744 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:37,744 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:37,744 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:58,128 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:58,128 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:58,128 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:58,128 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:22:58,128 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:23:29,844 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:23:29,844 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:23:29,844 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:23:29,844 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:23:29,844 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:23:29,844 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:39:43,833 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment
+2023-03-17 14:45:46,595 - log - ERROR - local variable 'NAS_tag' referenced before assignment
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\stat_func.py", line 327, in wear_nas_diag2
+    print(NAS_tag,NAS_comment,Fe_tag, Fe_comment ,nFe_tag,nFe_comment)
+UnboundLocalError: local variable 'NAS_tag' referenced before assignment

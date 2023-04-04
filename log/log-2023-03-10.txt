@@ -1,0 +1,488 @@
+2023-03-10 08:50:10,975 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 09:44:39,017 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 09:44:39,017 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 09:48:17,920 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 09:48:31,855 - log - ERROR - operands could not be broadcast together with shapes (14,) (24,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (14,) (24,) 
+2023-03-10 09:48:31,855 - log - ERROR - operands could not be broadcast together with shapes (14,) (24,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (14,) (24,) 
+2023-03-10 09:48:36,890 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 09:48:36,890 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 09:48:36,890 - log - ERROR - operands could not be broadcast together with shapes (0,) (13,) 
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 128, in forcast_func
+    r = ets.fit()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1172, in fit
+    res, use_brute, method, minimize_kwargs
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 783, in _optimize_parameters
+    initial_level=data.level, initial_trend=data.trend
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py", line 1267, in initial_values
+    b0 = ((lead - lag) / m).mean()
+ValueError: operands could not be broadcast together with shapes (0,) (13,) 
+2023-03-10 13:50:17,699 - log - ERROR - Model String 'RollingRregression' not a recognized model type
+Traceback (most recent call last):
+  File "<ipython-input-35-e05bfc37169a>", line 32, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 337, in __init__
+    models_mode=self.models_mode,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 1739, in RandomTemplate
+    n_models=n_models,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 1677, in random_model
+    param_dict = ModelMonster(model_str).get_new_params(method=models_mode)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 620, in ModelMonster
+    ("Model String '{}' not a recognized model type").format(model)
+AttributeError: Model String 'RollingRregression' not a recognized model type
+2023-03-10 13:51:16,605 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-37-f8a39fd1315d>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:51:16,605 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-37-f8a39fd1315d>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:51:57,757 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-39-7f2287ea1367>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:51:57,757 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-39-7f2287ea1367>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:51:57,757 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-39-7f2287ea1367>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:52:53,863 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-41-6e29787e901f>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:52:53,863 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-41-6e29787e901f>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:52:53,863 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-41-6e29787e901f>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:52:53,863 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-41-6e29787e901f>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:41,378 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-44-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:41,378 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-44-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:41,378 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-44-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:41,378 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-44-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:41,378 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-44-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:50,589 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-46-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:50,589 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-46-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:50,589 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-46-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:50,589 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-46-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:50,589 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-46-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:53:50,589 - log - ERROR - name 'df' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-46-3c90e83be54b>", line 19, in forcast_func2
+    forecast_length=len(df)//4
+NameError: name 'df' is not defined
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 13:54:40,987 - log - ERROR - 'AutoTS' object has no attribute 'df_wide_numeric'
+Traceback (most recent call last):
+  File "<ipython-input-48-f572b061adf8>", line 38, in forcast_func2
+    prediction = model.predict()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1736, in predict
+    df_train=self.df_wide_numeric,
+AttributeError: 'AutoTS' object has no attribute 'df_wide_numeric'
+2023-03-10 14:00:25,337 - log - ERROR - name 'AutoTS' is not defined
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 221, in forcast_func2
+    model = AutoTS(
+NameError: name 'AutoTS' is not defined
+2023-03-10 14:02:09,972 - log - ERROR - Model String 'ZeroesNaives' not a recognized model type
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 234, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 337, in __init__
+    models_mode=self.models_mode,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 1739, in RandomTemplate
+    n_models=n_models,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 1677, in random_model
+    param_dict = ModelMonster(model_str).get_new_params(method=models_mode)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 620, in ModelMonster
+    ("Model String '{}' not a recognized model type").format(model)
+AttributeError: Model String 'ZeroesNaives' not a recognized model type
+2023-03-10 14:02:09,972 - log - ERROR - Model String 'ZeroesNaives' not a recognized model type
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 234, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 337, in __init__
+    models_mode=self.models_mode,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 1739, in RandomTemplate
+    n_models=n_models,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 1677, in random_model
+    param_dict = ModelMonster(model_str).get_new_params(method=models_mode)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 620, in ModelMonster
+    ("Model String '{}' not a recognized model type").format(model)
+AttributeError: Model String 'ZeroesNaives' not a recognized model type
+2023-03-10 14:45:26,512 - log - ERROR - "None of ['time'] are in the columns"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 244, in forcast_func2
+    x_origin=df_data.set_index('time')
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 4555, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['time'] are in the columns"
+2023-03-10 14:45:26,512 - log - ERROR - "None of ['time'] are in the columns"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 244, in forcast_func2
+    x_origin=df_data.set_index('time')
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 4555, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['time'] are in the columns"
+2023-03-10 14:45:26,512 - log - ERROR - "None of ['time'] are in the columns"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 244, in forcast_func2
+    x_origin=df_data.set_index('time')
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 4555, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['time'] are in the columns"
+2023-03-10 14:47:13,928 - log - ERROR - Shape of passed values is (1, 2), indices imply (485, 2)
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 250, in forcast_func2
+    'pred': forecasts_df
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 93, in arrays_to_mgr
+    return create_block_manager_from_arrays(arrays, arr_names, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1697, in create_block_manager_from_arrays
+    raise construction_error(len(arrays), arrays[0].shape, axes, e)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1693, in create_block_manager_from_arrays
+    mgr = BlockManager(blocks, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 149, in __init__
+    self._verify_integrity()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 329, in _verify_integrity
+    raise construction_error(tot_items, block.shape[1:], self.axes)
+ValueError: Shape of passed values is (1, 2), indices imply (485, 2)
+2023-03-10 14:47:13,928 - log - ERROR - Shape of passed values is (1, 2), indices imply (485, 2)
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 250, in forcast_func2
+    'pred': forecasts_df
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 93, in arrays_to_mgr
+    return create_block_manager_from_arrays(arrays, arr_names, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1697, in create_block_manager_from_arrays
+    raise construction_error(len(arrays), arrays[0].shape, axes, e)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1693, in create_block_manager_from_arrays
+    mgr = BlockManager(blocks, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 149, in __init__
+    self._verify_integrity()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 329, in _verify_integrity
+    raise construction_error(tot_items, block.shape[1:], self.axes)
+ValueError: Shape of passed values is (1, 2), indices imply (485, 2)
+2023-03-10 14:47:13,928 - log - ERROR - Shape of passed values is (1, 2), indices imply (485, 2)
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 250, in forcast_func2
+    'pred': forecasts_df
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 93, in arrays_to_mgr
+    return create_block_manager_from_arrays(arrays, arr_names, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1697, in create_block_manager_from_arrays
+    raise construction_error(len(arrays), arrays[0].shape, axes, e)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1693, in create_block_manager_from_arrays
+    mgr = BlockManager(blocks, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 149, in __init__
+    self._verify_integrity()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 329, in _verify_integrity
+    raise construction_error(tot_items, block.shape[1:], self.axes)
+ValueError: Shape of passed values is (1, 2), indices imply (485, 2)
+2023-03-10 14:47:13,928 - log - ERROR - Shape of passed values is (1, 2), indices imply (485, 2)
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 250, in forcast_func2
+    'pred': forecasts_df
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 468, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 283, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 93, in arrays_to_mgr
+    return create_block_manager_from_arrays(arrays, arr_names, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1697, in create_block_manager_from_arrays
+    raise construction_error(len(arrays), arrays[0].shape, axes, e)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 1693, in create_block_manager_from_arrays
+    mgr = BlockManager(blocks, axes)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 149, in __init__
+    self._verify_integrity()
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\internals\managers.py", line 329, in _verify_integrity
+    raise construction_error(tot_items, block.shape[1:], self.axes)
+ValueError: Shape of passed values is (1, 2), indices imply (485, 2)
+2023-03-10 15:18:42,202 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 48, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-10 15:18:42,202 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 48, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-10 15:18:42,202 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 48, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-10 15:18:42,202 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 48, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0
+2023-03-10 15:18:42,202 - log - ERROR - forecast_length must be greater than 0
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\指数平滑预测.py", line 48, in forcast_func2
+    n_jobs='auto',
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 196, in __init__
+    assert forecast_length > 0, "forecast_length must be greater than 0"
+AssertionError: forecast_length must be greater than 0

@@ -1,0 +1,755 @@
+2023-03-29 08:09:34,433 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:11:19,857 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:20:01,907 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:20:01,907 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:27:41,087 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:27:41,087 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:27:41,087 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:36:06,851 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:36:06,851 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:36:06,851 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:36:06,851 - log - ERROR - 'AutoTS' object has no attribute 'validation_results'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1419, in fit
+    eligible_models = self.validation_results.model_results[
+AttributeError: 'AutoTS' object has no attribute 'validation_results'
+2023-03-29 08:56:47,806 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:56:47,806 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:56:47,806 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:56:47,806 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:56:47,806 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:57:35,698 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:57:35,698 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:57:35,698 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:57:35,698 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:57:35,698 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 08:57:35,698 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 09:02:28,813 - log - ERROR - "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'smape'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2200, in generate_score
+    if model_results['smape'].min() < 0:
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'smape'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 941, in fit
+    result_file=result_file,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 1532, in _run_template
+    prediction_interval=self.prediction_interval,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_model.py", line 2309, in generate_score
+    A new starting template may also help. {repr(e)}"""
+KeyError: "Evaluation Metrics are missing and all models have failed, by an error in template or metrics.\n            There are many possible causes for this, bad parameters, environment, or an unreported bug.\n            Usually this means you are missing required packages for the models like fbprophet or gluonts,\n            or that the models in model_list are inappropriate for your data.\n            A new starting template may also help. KeyError('smape',)"
+2023-03-29 10:44:58,125 - log - ERROR - forecast_length is too large for training data, alter min_allowed_train_percent to override
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 50, in arma_forcast
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 885, in fit
+    verbose=self.verbose,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\tools\shaping.py", line 380, in simple_train_test_split
+    "forecast_length is too large for training data, alter min_allowed_train_percent to override"
+ValueError: forecast_length is too large for training data, alter min_allowed_train_percent to override
+2023-03-29 10:44:58,170 - log - ERROR - num_validations/num_indices too high for this dataset
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 842, in fit
+    verbose=0,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\validation.py", line 105, in generate_validation_indices
+    **validation_params,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\tools\window_functions.py", line 266, in retrieve_closest_indices
+    raise ValueError("num_validations/num_indices too high for this dataset")
+ValueError: num_validations/num_indices too high for this dataset
+2023-03-29 10:44:58,170 - log - ERROR - num_validations/num_indices too high for this dataset
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 842, in fit
+    verbose=0,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\validation.py", line 105, in generate_validation_indices
+    **validation_params,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\tools\window_functions.py", line 266, in retrieve_closest_indices
+    raise ValueError("num_validations/num_indices too high for this dataset")
+ValueError: num_validations/num_indices too high for this dataset
+2023-03-29 10:55:55,743 - log - ERROR - num_validations/num_indices too high for this dataset
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 842, in fit
+    verbose=0,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\validation.py", line 105, in generate_validation_indices
+    **validation_params,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\tools\window_functions.py", line 266, in retrieve_closest_indices
+    raise ValueError("num_validations/num_indices too high for this dataset")
+ValueError: num_validations/num_indices too high for this dataset
+2023-03-29 10:55:55,743 - log - ERROR - num_validations/num_indices too high for this dataset
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 842, in fit
+    verbose=0,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\validation.py", line 105, in generate_validation_indices
+    **validation_params,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\tools\window_functions.py", line 266, in retrieve_closest_indices
+    raise ValueError("num_validations/num_indices too high for this dataset")
+ValueError: num_validations/num_indices too high for this dataset
+2023-03-29 10:55:55,743 - log - ERROR - num_validations/num_indices too high for this dataset
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 130, in arma_forcast2
+    model = model.fit(df_data, date_col='时间', value_col=arg, id_col=None)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\auto_ts.py", line 842, in fit
+    verbose=0,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\evaluator\validation.py", line 105, in generate_validation_indices
+    **validation_params,
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\autots\tools\window_functions.py", line 266, in retrieve_closest_indices
+    raise ValueError("num_validations/num_indices too high for this dataset")
+ValueError: num_validations/num_indices too high for this dataset
+2023-03-29 11:27:08,393 - log - ERROR - __init__() got an unexpected keyword argument 'model_param_dict'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 128, in arma_forcast2
+    n_jobs='auto',
+TypeError: __init__() got an unexpected keyword argument 'model_param_dict'
+2023-03-29 11:27:08,393 - log - ERROR - __init__() got an unexpected keyword argument 'model_param_dict'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 128, in arma_forcast2
+    n_jobs='auto',
+TypeError: __init__() got an unexpected keyword argument 'model_param_dict'
+2023-03-29 11:27:08,393 - log - ERROR - __init__() got an unexpected keyword argument 'model_param_dict'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 128, in arma_forcast2
+    n_jobs='auto',
+TypeError: __init__() got an unexpected keyword argument 'model_param_dict'
+2023-03-29 11:27:08,393 - log - ERROR - __init__() got an unexpected keyword argument 'model_param_dict'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\arma_func.py", line 128, in arma_forcast2
+    n_jobs='auto',
+TypeError: __init__() got an unexpected keyword argument 'model_param_dict'

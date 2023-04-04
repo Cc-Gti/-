@@ -1,0 +1,627 @@
+2023-04-03 10:39:41,599 - log - ERROR - '油温'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '油温'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 48, in time_trend_fitcal
+    df_new=pd.to_numeric(df[arg], errors='coerce').dropna(axis=0)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '油温'
+2023-04-03 10:39:41,608 - log - ERROR - 'KeyError' object is not subscriptable
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 250, in Vis_temp_diag
+    print(parameter[0])
+TypeError: 'KeyError' object is not subscriptable
+2023-04-03 10:39:41,608 - log - ERROR - 'KeyError' object is not subscriptable
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\trend_func.py", line 250, in Vis_temp_diag
+    print(parameter[0])
+TypeError: 'KeyError' object is not subscriptable
+2023-04-03 10:39:43,017 - log - ERROR - '40度黏度'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '40度黏度'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 268, in datafile_to_word2
+    describe_Seiries=quarterly_data['40度黏度'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '40度黏度'
+2023-04-03 10:39:43,017 - log - ERROR - '40度黏度'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '40度黏度'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 268, in datafile_to_word2
+    describe_Seiries=quarterly_data['40度黏度'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '40度黏度'
+2023-04-03 10:39:43,017 - log - ERROR - '40度黏度'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '40度黏度'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 268, in datafile_to_word2
+    describe_Seiries=quarterly_data['40度黏度'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '40度黏度'
+2023-04-03 10:39:44,233 - log - ERROR - '油温'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '油温'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 346, in datafile_to_word2
+    describe_Seiries=quarterly_data['油温'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '油温'
+2023-04-03 10:39:44,233 - log - ERROR - '油温'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '油温'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 346, in datafile_to_word2
+    describe_Seiries=quarterly_data['油温'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '油温'
+2023-04-03 10:39:44,233 - log - ERROR - '油温'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '油温'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 346, in datafile_to_word2
+    describe_Seiries=quarterly_data['油温'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '油温'
+2023-04-03 10:39:44,233 - log - ERROR - '油温'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '油温'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 346, in datafile_to_word2
+    describe_Seiries=quarterly_data['油温'].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: '油温'
+2023-04-03 10:39:45,447 - log - ERROR - "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 418, in datafile_to_word2
+    describe_Seiries=quarterly_data[['总铁磁颗粒','铁磁细颗粒','铁磁粗颗粒']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,447 - log - ERROR - "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 418, in datafile_to_word2
+    describe_Seiries=quarterly_data[['总铁磁颗粒','铁磁细颗粒','铁磁粗颗粒']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,447 - log - ERROR - "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 418, in datafile_to_word2
+    describe_Seiries=quarterly_data[['总铁磁颗粒','铁磁细颗粒','铁磁粗颗粒']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,447 - log - ERROR - "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 418, in datafile_to_word2
+    describe_Seiries=quarterly_data[['总铁磁颗粒','铁磁细颗粒','铁磁粗颗粒']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,447 - log - ERROR - "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 418, in datafile_to_word2
+    describe_Seiries=quarterly_data[['总铁磁颗粒','铁磁细颗粒','铁磁粗颗粒']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['总铁磁颗粒', '铁磁细颗粒', '铁磁粗颗粒'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,451 - log - ERROR - "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 481, in datafile_to_word2
+    describe_Seiries=quarterly_data[['Fe(70~100um)','Fe(100~150um)','Fe(>150um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,451 - log - ERROR - "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 481, in datafile_to_word2
+    describe_Seiries=quarterly_data[['Fe(70~100um)','Fe(100~150um)','Fe(>150um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,451 - log - ERROR - "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 481, in datafile_to_word2
+    describe_Seiries=quarterly_data[['Fe(70~100um)','Fe(100~150um)','Fe(>150um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,451 - log - ERROR - "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 481, in datafile_to_word2
+    describe_Seiries=quarterly_data[['Fe(70~100um)','Fe(100~150um)','Fe(>150um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,451 - log - ERROR - "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 481, in datafile_to_word2
+    describe_Seiries=quarterly_data[['Fe(70~100um)','Fe(100~150um)','Fe(>150um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,451 - log - ERROR - "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 481, in datafile_to_word2
+    describe_Seiries=quarterly_data[['Fe(70~100um)','Fe(100~150um)','Fe(>150um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Fe(70~100um)', 'Fe(100~150um)', 'Fe(>150um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,455 - log - ERROR - "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 543, in datafile_to_word2
+    describe_Seiries=quarterly_data[['非铁磁颗粒(200um~300um)','非铁磁颗粒(300um~400um)','非铁磁颗粒(400um~)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['非铁磁颗粒(200um~300um)', '非铁磁颗粒(300um~400um)', '非铁磁颗粒(400um~)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:45,457 - log - ERROR - "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 604, in datafile_to_word2
+    describe_Seiries=quarterly_data[['nFe(200~300um)','nFe(300~400um)','nFe(>400um)']].describe().round(2)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2912, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1298, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['nFe(200~300um)', 'nFe(300~400um)', 'nFe(>400um)'], dtype='object')] are in the [columns]"
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+2023-04-03 10:39:48,894 - log - ERROR - [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'
+Traceback (most recent call last):
+  File "E:\在线监测数据分析报告\在线监测算法库\算法库脚本\ZX_report.py", line 757, in datafile_to_word2
+    document.add_picture(cur_path+'//png//forcast_func_油温.png',width=Inches(6))
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "C:\Users\Lenovo\Anaconda3\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\在线监测数据分析报告\\在线监测算法库\\算法库脚本//png//forcast_func_油温.png'

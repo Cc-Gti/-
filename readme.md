@@ -16,9 +16,10 @@
     
     ├── config.py   // 参数配置文件，目前主要内容为诊断专家知识
     ├── stat_func.py   // 用于黏温特性拟合
-    ├── keras_lstm.py   // 用于水分异常功能
-    ├── log.py   // bug日志的生成文件
-    ├── stat_func.py   // 用于统计
+    ├── arma_func.py   // arma时间序列预测,参数选择为遗传算法，过程较慢，
+    ├── keras_lstm.py   // lstm时间序列预测,基于tensorflow，只能用于64位系统。
+    ├── log.py   // bug日志的生成脚本
+    ├── stat_func.py   // 用于污染及磨损统计
     ├── zaixian.py   // 包含统计、可视化、STL算法
     ├── ZX_Data_deal.py   // 数据处理
     ├── ZX_report.py   // 智能生成总结分析报告

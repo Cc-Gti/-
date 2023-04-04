@@ -1,0 +1,198 @@
+{
+    "VIS": {
+        "32": [
+            32,
+            3.2
+        ],
+        "46": [
+            46,
+            4.6
+        ],
+        "68": [
+            68,
+            6.8
+        ],
+        "100": [
+            120,
+            50
+        ],
+        "150": [
+            150,
+            15
+        ],
+        "220": [
+            220,
+            22
+        ],
+        "320": [
+            320,
+            32
+        ]
+    },
+    "AW": {
+        "rest": [
+            0.8,
+            0.3
+        ],
+        "\u6cb9\u819c\u8f74\u627f": [
+            200,
+            150
+        ]
+    },
+    "NAS": {
+        "All": [
+            8,
+            1
+        ]
+    },
+    "Fe_Turbine": {
+        "Fe(70~100um)": [
+            80,
+            30
+        ],
+        "Fe(100~150um)": [
+            30,
+            10
+        ],
+        "Fe(>150um)": [
+            10,
+            3
+        ],
+        "nFe(200~300um)": [
+            50,
+            20
+        ],
+        "nFe(300~400um)": [
+            20,
+            10
+        ],
+        "nFe(>400um)": [
+            10,
+            3
+        ]
+    },
+    "Fe_Hydraulic": {
+        "Fe(70~100um)": [
+            80,
+            30
+        ],
+        "Fe(100~150um)": [
+            30,
+            10
+        ],
+        "Fe(>150um)": [
+            10,
+            3
+        ],
+        "nFe(200~300um)": [
+            50,
+            20
+        ],
+        "nFe(300~400um)": [
+            20,
+            10
+        ],
+        "nFe(>400um)": [
+            10,
+            3
+        ]
+    },
+    "Fe_gear": {
+        "Fe(70~100um)": [
+            800,
+            300
+        ],
+        "Fe(100~150um)": [
+            300,
+            100
+        ],
+        "Fe(>150um)": [
+            100,
+            30
+        ],
+        "nFe(200~300um)": [
+            500,
+            200
+        ],
+        "nFe(300~400um)": [
+            200,
+            100
+        ],
+        "nFe(>400um)": [
+            100,
+            30
+        ]
+    },
+    "Weight": {
+        "VIS": 0.3,
+        "AW": 0.2,
+        "NAS": 0.2,
+        "Fe_NFe": 0.3
+    },
+    "Conclusion": {
+        "Vis_unsmo": [
+            "\u9ecf\u5ea6\u4e0d\u5e73\u7a33",
+            "\u9ecf\u5ea6\u5e8f\u5217\u4e0d\u5e73\u7a33\uff0c\u8868\u660e\u5bfc\u81f4\u6cb9\u819c\u5f3a\u5ea6\u4e0d\u7a33\uff0c\u5c40\u90e8\u6cb9\u819c\u88ab\u51fb\u7a7f\u7684\u6982\u7387\u589e\u52a0\uff1b\u5efa\u8bae\u5173\u6ce8\u9ecf\u5ea6\u53d8\u5316\u60c5\u51b5\u3002"
+        ],
+        "Vis_up": [
+            "\u9ecf\u5ea6\u4e0a\u5347",
+            "\u53ef\u80fd\u7531\u4e8e\u6cb9\u6e29\u4e0b\u964d\u5bfc\u81f4\uff1b\u5efa\u8bae\u6301\u7eed\u89c2\u5bdf\u3002"
+        ],
+        "Vis_down": [
+            "\u9ecf\u5ea6\u4e0b\u964d",
+            "\u7531\u4e8e\u6e29\u5ea6\u4e0b\u964d\u5bfc\u81f4\uff1a\u5efa\u8bae\u6301\u7eed\u89c2\u5bdf\u3002"
+        ],
+        "Temp_high": [
+            "\u6cb9\u6e29\u504f\u9ad8",
+            "\u8868\u660e\u7cfb\u7edf\u53ef\u80fd\u5b58\u5728\u51b7\u5374\u6c34\u6d41\u91cf\u4e0d\u8db3\u6216\u6469\u64e6\u526f\u5f02\u5e38\u78e8\u635f\uff1b\u5efa\u8bae\u68c0\u67e5\u8bbe\u5907\u8fd0\u884c\u60c5\u51b5\u3002"
+        ],
+        "Temp_up": [
+            "\u6cb9\u6e29\u4e0a\u5347",
+            "\u8868\u660e\u7cfb\u7edf\u53ef\u80fd\u5b58\u5728\u51b7\u5374\u6c34\u6d41\u91cf\u4e0d\u8db3\u6216\u6469\u64e6\u526f\u5f02\u5e38\u78e8\u635f\uff1b\u5efa\u8bae\u5173\u6ce8\u8bbe\u5907\u8fd0\u884c\u60c5\u51b5\u3002"
+        ],
+        "Vis_Temp_unnorm": [
+            "\u9ecf\u6e29\u6027\u80fd\u5f02\u5e38",
+            "\u8bf4\u660e\u6cb9\u6db2\u9ecf\u5ea6\u968f\u6e29\u5ea6\u53d8\u5316\u5f02\u5e38\uff0c\u5e94\u6ce8\u610f\u6cb9\u6db2\u9ecf\u6e29\uff0c\u5efa\u8bae\u52a0\u6d4b\u9ecf\u5ea6\u6307\u6570\u3002"
+        ],
+        "water_high": [
+            "\u6c34\u5206\u504f\u9ad8",
+            "\u542b\u6c34\u91cf\u504f\u9ad8\uff0c\u53ef\u80fd\u5b58\u5728\u51b7\u5374\u6c34\u6cc4\u6f0f\uff1b\u5efa\u8bae\u5173\u6ce8\u6c34\u5206\u53d8\u5316\u60c5\u51b5\uff0c\u68c0\u67e5\u90ae\u7bb1\u5e95\u90e8\u662f\u5426\u5b58\u5728\u6e38\u79bb\u6c34\u6216\u4e73\u5316\u6db2\uff0c\u5fc5\u8981\u65f6\u91c7\u53d6\u8131\u6c34\u5904\u7406\u3002"
+        ],
+        "water_down": [
+            "\u542b\u6c34\u91cf\u4e0b\u964d",
+            "\u542b\u6c34\u91cf\u4e0b\u964d\uff0c\u53ef\u80fd\u7531\u4e8e\u6cb9\u6db2\u5206\u6c34\u6027\u5bfc\u81f4\u6cb9\u4e2d\u90e8\u5206\u6c34\u5206\u5206\u79bb\uff1b\u5efa\u8bae\u68c0\u67e5\u90ae\u7bb1\u5e95\u90e8\u662f\u5426\u5b58\u5728\u6e38\u79bb\u6c34\u6216\u4e73\u5316\u6db2\u3002"
+        ],
+        "water_up": [
+            "\u542b\u6c34\u91cf\u4e0a\u5347",
+            "\u542b\u6c34\u91cf\u4e0a\u5347\uff0c\u53ef\u80fd\u7531\u4e8e\u5bc6\u5c01\u4e0d\u4e25\u5bfc\u81f4\u5916\u90e8\u7a7a\u6c14\u6c34\u5206\u6d78\u5165\uff0c\u6216\u5b58\u5728\u51b7\u5374\u6c34\u6cc4\u6f0f\uff1b\u5efa\u8bae\u5173\u6ce8\u6c34\u5206\u53d8\u5316\u60c5\u51b5\u3002"
+        ],
+        "NAS_high": [
+            "\u6c61\u67d3\u5ea6\u7b49\u7ea7\u504f\u9ad8",
+            "\u6c61\u67d3\u5ea6\u7b49\u7ea7\u504f\u9ad8\uff0c\u53ef\u80fd\u7531\u4e8e\u5bc6\u5c01\u4e0d\u4e25\u5bfc\u81f4\u5916\u90e8\u7c89\u5c18\u8fdb\u5165\uff1b\u5efa\u8bae\u52a0\u5f3a\u8fc7\u6ee4\u51c0\u5316\u5904\u7406\u3002"
+        ],
+        "NAS_up": [
+            "\u6c61\u67d3\u5ea6\u4e0a\u5347",
+            "\u6c61\u67d3\u5ea6\u7b49\u7ea7\u504f\u9ad8\uff0c\u53ef\u80fd\u7531\u4e8e\u5bc6\u5c01\u4e0d\u4e25\u5bfc\u81f4\u5916\u90e8\u7c89\u5c18\u8fdb\u5165\uff1b\u5efa\u8bae\u52a0\u5f3a\u8fc7\u6ee4\u51c0\u5316\u5904\u7406\u3002"
+        ],
+        "Fe_high": [
+            "\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u504f\u9ad8",
+            "\u6cb9\u4e2d\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u504f\u9ad8\uff0c\u8868\u660e\u7cfb\u7edf\u5b58\u5728\u5f02\u5e38\u78e8\u635f,\u5982\u4f20\u52a8\u8f74\u3001\u6cf5\u7b49\uff1b\u5efa\u8bae\u68c0\u67e5\u8bbe\u5907\u8fd0\u884c\u60c5\u51b5\u3002"
+        ],
+        "Fe_up": [
+            "\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u4e0a\u5347",
+            "\u6cb9\u4e2d\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u6709\u4e0a\u5347\u8d8b\u52bf\uff0c\u8868\u660e\u7cfb\u7edf\u5b58\u5728\u5f02\u5e38\u78e8\u635f,\u5982\u4f20\u52a8\u8f74\u3001\u6cf5\u7b49\uff1b\u5efa\u8bae\u68c0\u67e5\u8bbe\u5907\u8fd0\u884c\u60c5\u51b5\u3002"
+        ],
+        "nFe_high": [
+            "\u975e\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u504f\u9ad8",
+            "\u6cb9\u4e2d\u975e\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u504f\u9ad8\uff0c\u8868\u660e\u7cfb\u7edf\u53ef\u80fd\u5b58\u5728\u5f02\u5e38\u78e8\u635f\uff0c\u5982\u4f20\u52a8\u8f74\u74e6\u3001\u94dc\u7247\u7b49\uff1b\u5efa\u8bae\u68c0\u67e5\u8bbe\u5907\u8fd0\u884c\u60c5\u51b5\u3002"
+        ],
+        "nFe_up": [
+            "\u975e\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u4e0a\u5347",
+            "\u6cb9\u4e2d\u975e\u94c1\u78c1\u9897\u7c92\u542b\u91cf\u6709\u4e0a\u5347\u8d8b\u52bf\uff0c\u8868\u660e\u7cfb\u7edf\u5b58\u5728\u5f02\u5e38\u78e8\u635f,\u5982\u4f20\u52a8\u8f74\u74e6\u3001\u94dc\u7247\u7b49\uff1b\u5efa\u8bae\u68c0\u67e5\u8bbe\u5907\u8fd0\u884c\u60c5\u51b5\u3002"
+        ],
+        "Vis_high": [
+            "\u9ecf\u5ea6\u504f\u9ad8",
+            "\u9ecf\u5ea6\u504f\u9ad8\uff0c\u53ef\u80fd\u7531\u4e8e\u6cb9\u6e29\u4e0a\u5347\u5bfc\u81f4\uff0c\u5efa\u8bae\u9001\u68c0\u79bb\u7ebf\uff0c\u5173\u6ce8\u9ecf\u5ea6\u53d8\u5316\u8d8b\u52bf\u3002"
+        ]
+    }
+}
